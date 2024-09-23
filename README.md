@@ -1,19 +1,19 @@
 # Train Ticket Reservation System
 
-This project is a simple Train Ticket Reservation System implemented in Java. It provides functionality for managing trains, cities, journeys, and tickets, ensuring that all operations are executed correctly within the system.
+This project focuses on writing test cases for an existing Train Ticket Reservation System implemented in Java. The aim is to ensure that the reservation service operates correctly, covering various scenarios such as booking, cancelling, and modifying tickets, as well as managing train journeys and schedules.
 
 ## Project Objective
-The main goal is to simulate a ticket reservation system, allowing users to create train journeys, reserve tickets, cancel tickets, and manage travel schedules using an intuitive and structured Java-based implementation.
+The main goal is to create comprehensive test cases for the ticket reservation service to validate its functionality, reliability, and robustness. The testing process includes verifying operations like ticket booking, journey management, and handling delays in train schedules.
 
 ## Key Features
-- **Train and City Management:** Define and manage multiple trains and cities within the reservation system.
-- **Journey Management:** Create and manage journeys with defined departure and arrival times, including the ability to update or cancel journeys.
-- **Ticket Reservation:** Reserve, cancel, and modify tickets for different journeys.
-- **Handling Delays:** Introduce delays in journeys and handle changes accordingly.
+- **Test Case Development:** Developed test cases to validate different functionalities of the train reservation service.
+- **Unit Testing:** Ensures that individual components like ticket booking, journey creation, and ticket cancellation work correctly.
+- **Integration Testing:** Verifies that different parts of the system interact seamlessly.
+- **Error Handling Tests:** Checks the system's response to incorrect inputs or invalid operations.
 
 ## Technologies Used
 - **Programming Language:** Java
-- **Testing Frameworks:** JUnit 5, Cucumber for BDD (Behavior-Driven Development)
+- **Testing Frameworks:** JUnit 5 for unit testing, Cucumber for Behavior-Driven Development (BDD) testing
 
 ## How to Use
 1. **Initialize the System:**
